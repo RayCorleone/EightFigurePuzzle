@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Scene">
+      <UniqueIdentifier>{0f8ba027-901e-4a40-8941-d7d86f31abde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Overall">
+      <UniqueIdentifier>{d7a35c95-1f6f-42c5-ab6d-683006666191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Block">
+      <UniqueIdentifier>{4b38301a-ff7d-4dc4-b856-0765857e68e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Puzzles.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Block\Block.cpp">
+      <Filter>Class\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Overall\WidelyUsed.cpp">
+      <Filter>Class\Overall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SelfTypeScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MainScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SecondMainScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\RandomTypeScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\AdvanceTypeScene.cpp">
+      <Filter>Class\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Puzzles.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Block\Block.h">
+      <Filter>Class\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Overall\WidelyUsed.h">
+      <Filter>Class\Overall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SelfTypeScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\MainScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SecondMainScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\RandomTypeScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\AdvanceTypeScene.h">
+      <Filter>Class\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
